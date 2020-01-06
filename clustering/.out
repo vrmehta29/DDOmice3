@@ -1,0 +1,28 @@
+[34mINFO:   [0m Could not find any NVIDIA binaries on this host!
+                                                                                                                                                
+================
+== TensorFlow ==
+================
+
+NVIDIA Release 19.01 (build 5238117)
+TensorFlow Version 1.12.0+
+
+Container image Copyright (c) 2018, NVIDIA CORPORATION.  All rights reserved.
+Copyright 2017-2018 The TensorFlow Authors.  All rights reserved.
+
+Various files include modifications (c) NVIDIA CORPORATION.  All rights reserved.
+NVIDIA modifications are covered by the license terms that apply to the underlying project or file.
+
+WARNING: The NVIDIA Driver was not detected.  GPU functionality will not be available.
+   Use 'nvidia-docker run' to start this container; see
+   https://github.com/NVIDIA/nvidia-docker/wiki/nvidia-docker .
+
+ERROR: Detected MOFED driver 5.0-0, but this container has version 4.4-1.0.0.
+       Unable to automatically upgrade this container.
+       Use of RDMA for multi-node communication will be unreliable.
+
+NOTE: MOFED driver was detected, but nv_peer_mem driver was not detected.
+      Multi-node communication performance may be reduced.
+
+0
+slurmstepd: error: *** JOB 55485 ON sumner093 CANCELLED AT 2019-12-24T12:28:44 ***

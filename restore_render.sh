@@ -1,0 +1,1 @@
+ python restore_render_v3.py --to_label /projects/kumar-lab/mehtav/final_data/h200__globalvvd.h5 --model_dir /projects/kumar-lab/mehtav/models/exp_3/ --model_name exp_3 --hidden_layer 512,1024,2056,2056,1024,512 --number_options 5 --n_trajs 50
