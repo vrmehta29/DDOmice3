@@ -1,0 +1,111 @@
+[34mINFO:   [0m Could not find any NVIDIA binaries on this host!
+                                                                                                                                                
+================
+== TensorFlow ==
+================
+
+NVIDIA Release 19.01 (build 5238117)
+TensorFlow Version 1.12.0+
+
+Container image Copyright (c) 2018, NVIDIA CORPORATION.  All rights reserved.
+Copyright 2017-2018 The TensorFlow Authors.  All rights reserved.
+
+Various files include modifications (c) NVIDIA CORPORATION.  All rights reserved.
+NVIDIA modifications are covered by the license terms that apply to the underlying project or file.
+
+WARNING: The NVIDIA Driver was not detected.  GPU functionality will not be available.
+   Use 'nvidia-docker run' to start this container; see
+   https://github.com/NVIDIA/nvidia-docker/wiki/nvidia-docker .
+
+ERROR: Detected MOFED driver 5.0-0, but this container has version 4.4-1.0.0.
+       Unable to automatically upgrade this container.
+       Use of RDMA for multi-node communication will be unreliable.
+
+NOTE: MOFED driver was detected, but nv_peer_mem driver was not detected.
+      Multi-node communication performance may be reduced.
+
+  File "/home/c-mehtav/DDOmice2/action_embed.py", line 129
+    tf.summary.scalar('exp_cosine_matrix', tf.reduce_mean(exp_cosine_matrix))
+     ^
+SyntaxError: invalid syntax
+[34mINFO:   [0m Could not find any NVIDIA binaries on this host!
+                                                                                                                                                
+================
+== TensorFlow ==
+================
+
+NVIDIA Release 19.01 (build 5238117)
+TensorFlow Version 1.12.0+
+
+Container image Copyright (c) 2018, NVIDIA CORPORATION.  All rights reserved.
+Copyright 2017-2018 The TensorFlow Authors.  All rights reserved.
+
+Various files include modifications (c) NVIDIA CORPORATION.  All rights reserved.
+NVIDIA modifications are covered by the license terms that apply to the underlying project or file.
+
+WARNING: The NVIDIA Driver was not detected.  GPU functionality will not be available.
+   Use 'nvidia-docker run' to start this container; see
+   https://github.com/NVIDIA/nvidia-docker/wiki/nvidia-docker .
+
+ERROR: Detected MOFED driver 5.0-0, but this container has version 4.4-1.0.0.
+       Unable to automatically upgrade this container.
+       Use of RDMA for multi-node communication will be unreliable.
+
+NOTE: MOFED driver was detected, but nv_peer_mem driver was not detected.
+      Multi-node communication performance may be reduced.
+
+  File "/home/c-mehtav/DDOmice2/action_embed.py", line 129
+    tf.summary.scalar('exp_cosine_matrix', tf.reduce_mean(exp_cosine_matrix))
+     ^
+SyntaxError: invalid syntax
+[34mINFO:   [0m Could not find any NVIDIA binaries on this host!
+                                                                                                                                                
+================
+== TensorFlow ==
+================
+
+NVIDIA Release 19.01 (build 5238117)
+TensorFlow Version 1.12.0+
+
+Container image Copyright (c) 2018, NVIDIA CORPORATION.  All rights reserved.
+Copyright 2017-2018 The TensorFlow Authors.  All rights reserved.
+
+Various files include modifications (c) NVIDIA CORPORATION.  All rights reserved.
+NVIDIA modifications are covered by the license terms that apply to the underlying project or file.
+
+WARNING: The NVIDIA Driver was not detected.  GPU functionality will not be available.
+   Use 'nvidia-docker run' to start this container; see
+   https://github.com/NVIDIA/nvidia-docker/wiki/nvidia-docker .
+
+ERROR: Detected MOFED driver 5.0-0, but this container has version 4.4-1.0.0.
+       Unable to automatically upgrade this container.
+       Use of RDMA for multi-node communication will be unreliable.
+
+NOTE: MOFED driver was detected, but nv_peer_mem driver was not detected.
+      Multi-node communication performance may be reduced.
+
+  File "/home/c-mehtav/DDOmice2/action_embed.py", line 129
+    tf.summary.scalar('exp_cosine_matrix', tf.reduce_mean(exp_cosine_matrix))
+     ^
+SyntaxError: invalid syntax
+-------------------------------------------------------------
+SUMNER/WINTER EPILOGUE
+-------------------------------------------------------------
+Job ID: 361553
+Cluster: slurm_cluster
+User/Group: c-mehtav/jaxuser
+State: FAILED (exit code 1)
+Nodes: 1
+Cores per node: 4
+CPU Utilized: 00:00:02
+CPU Efficiency: 5.56% of 00:00:36 core-walltime
+Job Wall-clock time: 00:00:09
+Memory Utilized: 0.00 MB (estimated maximum)
+Memory Efficiency: 0.00% of 15.62 GB (3.91 GB/core)
+-------------------------------------------------------------
+       JobID  User   State    CPUTime Exit     MaxRSS        NodeList  Partition                   ReqTRES              Submit               Start                 End    Elapsed 
+------------ ----- ------- ---------- ---- ---------- --------------- ---------- ------------------------- ------------------- ------------------- ------------------- ---------- 
+361553       c-me+  FAILED   00:00:36  1:0                  winter200        gpu billing=4,cpu=4,mem=1600+ 2020-02-19T05:15:42 2020-02-19T05:15:43 2020-02-19T05:15:52   00:00:09 
+361553.batch        FAILED   00:00:36  1:0          0       winter200                                      2020-02-19T05:15:43 2020-02-19T05:15:43 2020-02-19T05:15:52   00:00:09 
+361553.exte+       COMPLE+   00:00:36  0:0          0       winter200                                      2020-02-19T05:15:43 2020-02-19T05:15:43 2020-02-19T05:15:52   00:00:09 
+-------------------------------------------------------------
